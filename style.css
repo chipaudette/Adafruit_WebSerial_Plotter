@@ -34,7 +34,6 @@
 
 
 body {
-  white-space: pre;
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 0;
 }
@@ -45,7 +44,6 @@ canvas {
 }
 
 p {
-  white-space: pre;
   margin: 0.2em;
 }
 
