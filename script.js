@@ -150,8 +150,7 @@ function logData(line) {
     log.innerHTML += '<span class="timestamp">' + timestamp + ' -> </span>';
     d = null;
   }
-  //line.replace(" ","&nbsp"); //added Chip 11/16/2021
-  log.innerHTML += line+ "<br>";
+  //log.innerHTML += line+ "<br>"; //original
 
   // Remove old log content
   if (log.textContent.split("\n").length > bufferSize.value + 1) {
