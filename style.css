@@ -34,6 +34,7 @@
 
 
 body {
+  white-space: pre;
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 0;
 }
@@ -44,6 +45,7 @@ canvas {
 }
 
 p {
+  white-space: pre;
   margin: 0.2em;
 }
 
@@ -111,6 +113,7 @@ button {
 }
 
 #log {
+  white-space: pre;
   height: 40vh;
   width: 100%;
   font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
