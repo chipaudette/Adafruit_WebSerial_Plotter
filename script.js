@@ -74,8 +74,8 @@ async function connect() {
   // - Request a port and open a connection.
   port = await navigator.serial.requestPort();
   // - Wait for the port to open.toggleUIConnected
-  //await port.open({ baudrate: baudRate.value });
-  await port.open({ baudrate: 115200 });
+  await port.open({ baudRate: baudRate.value });
+  
   
 
   const encoder = new TextEncoderStream();
